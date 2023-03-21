@@ -1,0 +1,14 @@
+table, td, th
+{
+border:1px solid blue;
+}
+th
+{
+background-color:blue;
+color:white;
+}
+td
+{
+background-color:;
+color:navy;
+}
