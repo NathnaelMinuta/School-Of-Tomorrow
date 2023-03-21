@@ -1,0 +1,54 @@
+body{font-size:20px;color:navy;background-color:#ffffff;margin:0px;overflow:auto;background-image:url('SOT.jpg');background-size:100% 100%;background-repeat:y-repeat;}
+
+.n{
+                font-size: 25pt;
+width:450px;
+                color:white;
+                padding: 5pt;
+                cursor:pointer;
+                background-color: rgb(0, 0, 60);
+                margin-top: 2px;
+transform:rotate(0deg);
+text-align:center;
+margin-left: 35%;
+            }
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:258.1px;
+height:25px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:navy;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+margin-left: 200%;
+}
+
+a:link.scrollup
+{
+display:block;
+width:40px;
+height:40px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:gray;
+text-align:right;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}

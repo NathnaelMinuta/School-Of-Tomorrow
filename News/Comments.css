@@ -1,0 +1,57 @@
+body{font-size:20px;color:navy;background-color:lightcyan;margin:0px;overflow:auto;background-image:url('.jpg');background-size:1400px 650px;background-repeat:y-repeat;}
+h1 {    
+        font-family:Bodoni MT Black;
+	font-size: 36px;
+	margin-bottom:20px;
+        color: navy;
+        text-align: center;
+}
+a:link.scrollup
+{
+display:block;
+width:210px;
+height:30px;
+font-weight:bold;
+color:navy;
+background-color:cyan;
+text-align:left;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.Tips
+{
+display:block;
+width:300px;
+height:250px;
+font-weight:bold;
+color:cyan;
+border-style:solid;
+border-width:1px;
+border-color:Black;
+background-color:white;
+text-align:left;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.button
+{
+display:block;
+width:210px;
+height:30px;
+font-weight:bold;
+color:navy;
+background-color:Red;
+text-align:Center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+
+}
+.column {float:left;width:33.33%;height:300px;}
+
+
+
+/* clear float after columns */
+.row:after{content:"";display:table;clear:both;}

@@ -1,0 +1,72 @@
+<html>
+<head><title>NEWS</title>
+<link rel="stylesheet" type="text/css" href="Comments.css">
+
+<script type="text/javascript">
+function timeMsg()
+{
+var t=setTimeout("alertMsg()",2000);
+}
+function alertMsg()
+{
+alert("Sorry we have no any Breaking news to display right now because School hasn't opened yet.");
+}
+</script>
+</head>
+
+<body>
+<div class="row">
+<div class="column 1">
+<a href="Time.html" class="scrollup"> <-- Previous News</a>
+<br>
+<br>
+</div>
+<div class="column 2">
+<form>
+<input type="button" class="button" value="Breaking News"
+onclick="timeMsg()" />
+</form>
+</div>
+<div class="column 3">
+<div class="Tips">
+<h1>Daily TIPS</h1>
+<script type="text/javascript">
+//You will receive a different greeting based
+//on what day it is. Note that Sunday=0,
+//Monday=1, Tuesday=2, etc.
+
+var d=new Date();
+var theDay=d.getDay();
+switch (theDay)
+{
+case 1:
+  document.write("Ready for School! AfterTwo days rest");
+  break;
+case 2:
+  document.write("2nd day of the week!");
+  break;
+case 3:
+  document.write("The day in which many assignments and homeworks are given.");
+  break;
+case 4:
+  document.write("Twins of Saturday which is Thursday!");
+  break;
+case 5:
+  document.write("Finally Friday");
+  break;
+case 6:
+  document.write("Super Saturday");
+  break;
+case 0:
+  document.write("Sleepy Sunday");
+  break;
+default:
+  document.write("I'm looking forward to this weekend!");
+}
+</script>
+</div>
+</div>
+<hr>
+<h1><marquee direction="up">Thanks for Visiting!This is School of tomorrow news page.</marquee></h1>
+</body>
+</html>

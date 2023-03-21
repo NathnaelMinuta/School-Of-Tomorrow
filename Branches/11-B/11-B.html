@@ -1,0 +1,93 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="11-B.css">
+
+</head>
+<body>
+
+ 
+<div class=nav style="display: none;">
+           <h1><u>This IS 11-B</u></h1>
+<center><table border="2">
+  <tr>
+    <th>Rank</th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><a href="C:\Users\Toshiba\Documents\My last project\School of Tomorrow\About\About.html">Nathnael Kebede</a></td>
+  </tr>
+ <tr>
+<td>2</td>
+    <td>Ella Elias</td>
+</tr>
+<tr>
+<td>3</td>
+    <td>Jonathan Leul</td>
+</tr>
+<td>4</td>
+    <td>Mina Kasim</td>
+</tr>
+<td>5</td>
+    <td>Leul Zelalem</td>
+</tr>
+
+</table>
+</center>             
+                                    
+        </div>
+
+ 
+
+
+
+ <script>
+            document.getElementsByClassName("nav")[0].style.display = "block";
+           
+            var wdspn = document.getElementById("wds");
+
+            var cl=40, d=4, x=150, k=d, n=30, evr=2, glb=0;
+            var wds=["", '"', '""', '""', "", '""', ""], wdp=0;
+            anm = function(){
+                glb++;
+                if(glb<evr) return;
+                glb = 0;
+                cl += k;
+                if (cl>x || cl<n) k *= -1;
+                document.body.style.backgroundColor = "rgb(" + cl + ", 0, 0)";
+            }
+
+            setInterval(anm, 30);
+            
+            var fdi; fdv=0;
+            var fdo = function(){
+                fdv =fdv- 0.01;
+                wdspn.style.opacity = fdv;
+            }
+			var anon1 = function(){
+				clearInterval(fdi);
+			}
+			var anon2 = function(){
+				wdspn.innerText = wds[(++wdp % (wds.length))]; wdspn.style.opacity = 1;
+			}
+			var chnwd = function(){
+				fdv=1; fdi = setInterval(fdo, 20);
+				setTimeout(anon1(), 20000);
+				setTimeout(anon2(), 20000);
+			}
+            setInterval(chnwd, 10000);
+
+            rd = function(j){
+                window.location = (window.location + "").substring(0, ((window.location + "").lastIndexOf("/"))) + "/-/" + j + "#";
+            }
+
+
+            if ((""+ window.location).substr(-3, 3)=="?sd") window.scrollTo(0,232323);
+
+        </script>
+</body>
+
+
+
+</html>

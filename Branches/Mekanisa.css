@@ -1,0 +1,34 @@
+h2 {    
+        font-family:Bodoni MT Black;
+	font-size: 36px;
+	margin-bottom:20px;
+        color: Navy;
+        text-align: center;
+}
+/* split the screen in half*/
+.split{height:500px;width:50%;position:absolute;z-index:1;top:100;over flow-x:hidden;padding-top:100px;}
+
+
+/* control the left side */
+.left{left:10;background-color:Lightcyan;}
+
+
+
+/* control the right side */
+.right{right:10;background-color:Lightcyan;}
+
+/* If you want the content centered horizontally and vertically */
+.centered{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);text-align:left;}
+
+
+
+/* style the image inside the centered container, if needed */
+.centered img{width:600px;border-radius:5%}
+
+.11{
+margin-left:auto;
+margin-right:auto;
+width:50px;
+height:50px;
+
+}

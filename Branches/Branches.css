@@ -1,0 +1,227 @@
+h1 {    
+        font-family:Bodoni MT Black;
+	font-size: 36px;
+	margin-bottom:20px;
+        color: White;
+        text-align: center;
+}
+h2 {    
+        font-family:Bodoni MT Black;
+	font-size: 36px;
+	margin-bottom:20px;
+        color: Navy;
+        text-align: center;
+}
+.Inro{
+font-family:Baskerville Old Face;
+color: blue;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+background:#444 url('header_bg.jpg') no-repeat center center fixed;
+text-align:left;
+padding:8px;
+}
+.CMC{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Cmc.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+table, td, th
+{
+border:1px solid blue;
+}
+th
+{
+background-color:blue;
+color:white;
+}
+td
+{
+background-color:;
+color:white;
+}
+.Bole{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Bole.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.Hayahulet{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Hayahulet.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.Bisrat{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Bisrat.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.Gofa{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Gofa.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.Gulele{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Gulele.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.Lem{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Lem.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.Mega{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Mega.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.Mekanisa{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Mekanisa.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.Misrak{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Misrak.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+.RasDesta{
+font-family:Baskerville Old Face;
+color: navy;
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:450px;
+background:url('Ras Desta.jpg');
+background-size:100% 100%;
+text-align:left;
+padding:8px;
+}
+
+blockquote.large {
+	font-size:32px;
+	font-weight:700;
+        color:blue;
+        text-align:center;
+	line-height:1.1em;}
+a:link.scrollup
+{
+display:block;
+width:40px;
+height:40px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:navy;
+text-align:right;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:258.5px;
+height:25px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:navy;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}

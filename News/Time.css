@@ -1,0 +1,60 @@
+h1 {    
+        font-family:Bodoni MT Black;
+	font-size: 36px;
+	margin-bottom:20px;
+        color: navy;
+        text-align: center;
+}
+
+.service-box {
+text-align: center;
+padding: 20px;
+width:900px;
+height:300px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.service-box h2 {
+color: red;
+	font-weight: 700;
+}
+
+
+
+a:link.scrollup
+{
+display:block;
+width:75px;
+height:75px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:light cyan;
+text-align:left;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.column {float:left;width:33.33%;height:250px;}
+
+
+
+/* clear float after columns */
+.row:after{content:"";display:table;clear:both;}
+.button
+{
+display:block;
+width:210px;
+height:30px;
+font-weight:bold;
+color:navy;
+background-color:Red;
+text-align:Center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+
+}

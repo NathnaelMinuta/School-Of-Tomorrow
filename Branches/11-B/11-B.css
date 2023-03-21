@@ -1,0 +1,24 @@
+table, td, th
+{
+border:1px solid Navy;
+}
+th
+{
+background-color:blue;
+color:White;
+}
+td
+{
+text-align:center;
+background-color:White;
+color:Navy;
+width:200px;
+height:50px;
+}
+h1 {    
+        font-family:Bodoni MT Black;
+	font-size: 36px;
+	margin-bottom:20px;
+        color: navy;
+        text-align: center;
+}
